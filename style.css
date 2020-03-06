@@ -122,6 +122,24 @@ iframe{
         height: 400px;
     }
 }
+@media all and (min-width: 1024px) and (max-width: 1150px){
+    body{
+        background-image: url("Hero_img_mobile_01.jpg");
+        background-position: top;
+    }
+    .container{
+        top:65%;
+        width: 100%;
+    }
+    .content{
+        width: 90%;
+        margin: auto;
+    }
+    iframe{
+        width: 80%;
+        height: 600px;
+    }
+}
 @media only screen and (min-width:3000px){
     .content{
         width: 2400px;
