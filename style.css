@@ -24,15 +24,9 @@ body{
 }
 #pop-up{
     position: relative;
-    top:25px;
+    top:20px;
     width:250px;
-    padding:11px;
-    font-size: 28px;
-    letter-spacing: 0.5px;
-    font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(#c2c2c2,#e0e0e0);
     cursor: pointer;
-    border: 2px solid #fff;
 }
 #modal{
     display: none;
@@ -106,5 +100,15 @@ iframe{
     iframe{
         width: 90%;
         height: 300px;
+    }
+}
+@media only screen and (min-width:3000px){
+    .content{
+        width: 2400px;
+        font-size: 70px;
+    }
+    iframe{
+        width:70%;
+        height: 900px;;
     }
 }
